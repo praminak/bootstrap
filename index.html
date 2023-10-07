@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cake Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Spline+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <div class="all.content">
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="logo"><img src="media/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span ><i class="fa-solid fa-bars" style="color: white;" font-size: 23px;></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#review">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item text-center  vh-100 active slider-1">
+       <div class="container h-100 d-flex align-items-center justify-content-center">
+        <div class="row justify-content-center">
+        <div class="col-lg-&">
+          <h6 class="text-white">WELCOME TO CAKE STUDIO</h6>
+          <h1 class="display1 text-white">BAKED WITH LOVE</h1>
+          <button id="btn">SHOP NOW</button>
+        </div>
+        </div>
+       </div>
+      </div>
+      <div class="carousel-item text-center vh-100  slider-2">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-&">
+              <h6 class="text-white">WELCOME TO CAKE STUDIO</h6>
+              <h1 class="display1 text-white">DELICIOUS CAKE FOR EVERYONE</h1>
+              <button id="btn">SHOP NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <section id="about">
+      <div class="container">
+        <h1 class="text-center" style="font-weight: bold; margin-top: 50px;">About Us</h1>
+        <div class="about-us">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="card">
+                <img class="card-image-top" src="media/cake.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-md-7">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section id="menu">
+    <h1 class="text-center" style="font-weight: bold; margin-top: 50px;">Menu</h1>
+    <div class="container">
+      <div class="new-card">
+        <div class="row">
+          <div class="col-md-3 py-2 py-md-0">
+            <div class="card">
+              <img class="card-image-top" src="media/pastry.jpg" alt="">
+              <div class="card-body">
+                <h2 class="card-title text-center">Honey Cake</h2>
+                <h3 class="card-title text-center">$200</h3>
+                <p class="card-text text-center">Lorrem ipsum dolor sit,amet consectetur adipisicing elit.</p>
+                <div id="btn3"><button>Order Now</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-2 py-md-0">
+            <div class="card">
+              <img class="card-image-top" src="media/cho pastry.jpg" alt="">
+              <div class="card-body">
+                <h2 class="card-title text-center">Chocolate Cake</h2>
+                <h3 class="card-title text-center">$200</h3>
+                <p class="card-text text-center">Lorrem ipsum dolor sit,amet consectetur adipisicing elit.</p>
+                <div id="btn3"><button>Order Now</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-2 py-md-0">
+            <div class="card">
+              <img class="card-image-top" src="media/vapastry.jpg" alt="">
+              <div class="card-body">
+                <h2 class="card-title text-center">Vanila Cake</h2>
+                <h3 class="card-title text-center">$200</h3>
+                <p class="card-text text-center">Lorrem ipsum dolor sit,amet consectetur adipisicing elit.</p>
+                <div id="btn3"><button>Order Now</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-2 py-md-0">
+            <div class="card">
+              <img class="card-image-top" src="media/pastry.jpg" alt="">
+               <div class="card-body">
+                <h2 class="card-title text-center">Honey Cake</h2>
+                <h3 class="card-title text-center">$200</h3>
+                <p class="card-text text-center">Lorrem ipsum dolor sit,amet consectetur adipisicing elit.</p>
+                <div id="btn3"><button>Order Now</button></div>
+              </div>
+            </div>
+          </div>
+         </div>
+      </div>
+      <div id="btn4"><button>View Full Menu</button></div>
+    </div>
+  </section>
+  <section id="review">
+    <h1 class="text-center" style="font-weight: bold; margin-top: 50px;">Review</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <div class="profile">
+            <img src="media/b.jpeg" class="user" alt="">
+            <blockquote>Like this cake and ask your question
+              comment section.dont forget to subscribe essentially
+              Tutorial channel to watch more updates of this site
+              website dessigning
+            </blockquote>
+            <h3>Jack - <span>Customer</span></h3>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="profile">
+            <img src="media/b.jpeg" class="user" alt="">
+            <blockquote>Like this cake and ask your question
+              comment section.dont forget to subscribe essentially
+              Tutorial channel to watch more updates of this site
+              website dessigning
+            </blockquote>
+            <h3>John - <span>Customer</span></h3>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="profile">
+            <img src="media/b.jpeg" class="user" alt="">
+            <blockquote>Like this cake and ask your question
+              comment section.dont forget to subscribe essentially
+              Tutorial channel to watch more updates of this site
+              website dessigning
+            </blockquote>
+            <h3>Jack - <span>Customer</span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </selection>  
+      <section id="contact" >
+        <h1 class="text-center" style="font-weight: bold; margin-top: 50px;">Contact Us</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" class="form-control" id="usr" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="eml" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="phn" placeholder="Phone"><br>
+              </div>
+              <div id="btn3"><button>Send Message</button></div><br>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea class="form-control" id="comment" rows="4"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      <footer id="footer">
+        <div class="footer-logo text-center"><img src="media/logo.png" alt=""></div>
+        <div class="socall-links text-center">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="credits text-center">
+          Designed By <a href="#">PK Coding</a>
+        </div>
+        <div class="copyright text-center">
+          &copy;Copyright <span>Cake Studio</span>,All Right Reserved
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
